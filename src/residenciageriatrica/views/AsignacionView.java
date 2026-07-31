@@ -2,8 +2,8 @@ package residenciageriatrica.views;
 
 import residenciageriatrica.controllers.AsignacionController;
 import residenciageriatrica.dtos.AsignacionDTO;
-import utils.Mensajes;
-import utils.Mostrar;
+import residenciageriatrica.utils.Mensajes;
+import residenciageriatrica.utils.Mostrar;
 
 import java.util.List;
 import java.util.Scanner;

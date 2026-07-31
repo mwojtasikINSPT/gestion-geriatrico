@@ -1,4 +1,4 @@
-package utils;
+package residenciageriatrica.utils;
 
 public class Mensajes {
 
@@ -6,7 +6,7 @@ public class Mensajes {
     // Usamos 'final' para que nadie pueda cambiar el texto durante la ejecucion
     // Menus
     public static final String OPCION_INVALIDA = "Opcion invalida. Intente de nuevo.";
-    public static final String VOLVIENDO = "Volviendo al Menu Anterior...";
+    public static final String VOLVIENDO = "\nVolviendo al Menu Anterior...";
     public static final String SALIENDO = "\nSaliendo del Sistema. Hasta Luego!";
 
     // CRUD

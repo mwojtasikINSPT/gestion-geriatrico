@@ -3,8 +3,8 @@ package residenciageriatrica.views;
 
 import residenciageriatrica.controllers.HabitacionController;
 import residenciageriatrica.dtos.HabitacionDTO;
-import utils.Mensajes;
-import utils.Mostrar;
+import residenciageriatrica.utils.Mensajes;
+import residenciageriatrica.utils.Mostrar;
 
 import java.util.List;
 import java.util.Scanner;

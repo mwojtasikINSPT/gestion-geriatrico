@@ -1,8 +1,8 @@
 package residenciageriatrica.views;
 
-import utils.Mostrar;
 import java.util.Scanner;
-import utils.Mensajes;
+import residenciageriatrica.utils.Mensajes;
+import residenciageriatrica.utils.Mostrar;
 
 public class MenuPrincipalView {
 

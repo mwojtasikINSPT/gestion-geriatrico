@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.Scanner;
 import residenciageriatrica.controllers.ResidenteController;
 import residenciageriatrica.dtos.ResidenteDTO;
-import utils.Mensajes;
-import utils.Mostrar;
+import residenciageriatrica.utils.Mensajes;
+import residenciageriatrica.utils.Mostrar;
 
 public class ResidenteView {
 

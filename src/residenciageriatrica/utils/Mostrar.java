@@ -1,4 +1,4 @@
-package utils;
+package residenciageriatrica.utils;
 
 import java.util.Scanner;
 
@@ -22,7 +22,7 @@ public class Mostrar {
 
     // Imprime mensaje
     public static void Mensaje(String mensaje) {
-        System.out.println("-> " + mensaje);
+        System.out.println("    " + mensaje);
     }
 
     public static void Titulo(String titulo) {
