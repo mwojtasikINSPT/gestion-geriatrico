@@ -22,6 +22,7 @@ public class MenuPrincipalView {
                     + "3. Gestionar residentes\n"
                     + "4. Gestionar enfermeros\n"
                     + "5. Gestionar asignaciones\n"
+                    + "6. Consultas\n"
                     + "0. Salir";
             opcion = Mostrar.Menu(menuTexto, scanner);
 
@@ -40,6 +41,9 @@ public class MenuPrincipalView {
 
                 case 5 ->
                     new AsignacionView(scanner).mostrarMenu();
+                
+                case 6 ->
+                    new ConsultasView(scanner).mostrarMenu();
 
                 case 0 ->
                     Mostrar.Mensaje(Mensajes.SALIENDO);

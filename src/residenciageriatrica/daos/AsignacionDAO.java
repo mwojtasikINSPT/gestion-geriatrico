@@ -43,7 +43,7 @@ public class AsignacionDAO {
 
     public void agregar(AsignacionDTO asignacion) {
         try (PrintWriter pw = new PrintWriter(new FileWriter(ARCHIVO, true))) {
-            pw.println(asignacion.getIdEnfermero().trim().toUpperCase() + ";" + asignacion.getCodHabitacion().trim().toUpperCase());
+            pw.println(asignacion.getIdEnfermero().trim().toUpperCase() + "," + asignacion.getCodHabitacion().trim().toUpperCase());
         } catch (IOException e) {
             throw new RuntimeException("Error al guardar la asignación.", e);
         }
@@ -74,4 +74,16 @@ public class AsignacionDAO {
             throw new RuntimeException("Error al eliminar las asignaciones del enfermero.", e);
         }
     }
+
+    public AsignacionDTO obtenerPorCodHabitacion(String codHabitacion) {
+    String codBuscado = codHabitacion.trim().toUpperCase();
+
+    for (AsignacionDTO asignacion : obtenerRegistros()) {
+        if (asignacion.getCodHabitacion().equalsIgnoreCase(codBuscado)) {
+            return asignacion;
+        }
+    }
+
+    return null;
+}
 }
