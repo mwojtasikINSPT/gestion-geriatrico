@@ -7,6 +7,7 @@ Sistema de consola desarrollado en Java para la administración integral de una 
 ## 🚀 Características Principales
 
 * **Gestión Completa (CRUD):** Administración de habitaciones, residentes, enfermeros, reservas y asignaciones de personal.
+* **Búsquedas en Sistema:** Muestra información cruzada relacionada con Reservas y Asignaciones.
 * **Persistencia en Archivos:** Almacenamiento local estructurado mediante archivos `.txt` delimitados por comas.
 * **Robustez y Validaciones:** Control de entradas por consola para evitar caídas del sistema ante ingresos inválidos (letras, puntos, espacios vacíos).
 * **Soporte UTF-8:** Configuración de salida en consola para asegurar la correcta visualización de acentos y caracteres especiales.
@@ -27,7 +28,8 @@ residenciageriatrica/
 └── views/                    # Interfaces de usuario por consola
     ├── MenuPrincipalView.java
     ├── HabitacionView.java
-    ├── ResidenteView.java
-    ├── EnfermeroView.java
     ├── ReservaView.java
-    └── AsignacionView.java
+    ├── ResidenteView.java
+    ├── EnfermeroView.java 
+    ├── AsignacionView.java
+    └── ConsultasView.java
